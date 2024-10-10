@@ -7,6 +7,12 @@
 [![arXiv](https://img.shields.io/badge/Arxiv-2410.05714-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2410.05714)
 </h5>
 
+<p align="center">
+<img src="figure/Overview.png" width=97% height=97%
+class="center">
+</p>
+
+
 ## Installation
 
 Clone this repository and install packages:
