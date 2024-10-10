@@ -67,7 +67,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 bash script/train/train.sh TG-Vid-220K
 ```
 
 ## Testing
-Check inference/*/test_*.sh for more details:
+Check inference/\*/test_\*.sh for more details:
 ```
   model=$1
   gpu=$2
@@ -78,6 +78,8 @@ Check inference/*/test_*.sh for more details:
   --ckpt-path output/${model}/pytorch_model.bin \
   ...
 ```
+
+Note: you have to modify the path to annotation files & videos in the scripts & codes. The easiest way is to search for `/path/to/`.
 
 Take `model=TG-Vid-197K` as an example:
 
